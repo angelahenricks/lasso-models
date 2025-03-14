@@ -1,4 +1,4 @@
-%% LFP data processing_basic protocol for lasso
+%% LFP data processing_basic protocol for lasso - training
 %Step 0: Split files so each animal/rec has its own file
     You can use fileSplitter or manually split files with PlexUtil
     files must be in PLX to split but in PL2 to convert to matlab files
