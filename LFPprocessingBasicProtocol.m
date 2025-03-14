@@ -1,4 +1,4 @@
-%% LFP data processing_basic protocol for lasso - training
+%% LFP data processing_basic protocol for lasso
 %Step 0: Split files so each animal/rec has its own file
     You can use fileSplitter or manually split files with PlexUtil
     files must be in PLX to split but in PL2 to convert to matlab files
@@ -8,7 +8,6 @@
     2.1: in scbParamsMulti fucntion change parameters for your study.
         this creates the cfg internally; the variables you need to analyze the data
     2.2: fileCycle runs spectcombbase function on all files instead of individually
-        change save directory in this function
 %Step 3: collateData function organizes data
     collates data from many files into matrices
     make sure you know the order of your files. You can use [data,~,files] = collateData to create a variable with file names. The order of the files should match Y data when doing a continuous prediction.
